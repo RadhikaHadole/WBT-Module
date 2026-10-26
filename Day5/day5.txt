@@ -1,0 +1,18 @@
+To check npm version
+npm -v
+10.8.1
+
+C:\Users\CDAC>npm --version
+10.8.1
+
+# means h1
+## means h2
+
+
+
+CC Ques
+How to create package.json
+npm init -y
+
+what package.json file repersent
+
