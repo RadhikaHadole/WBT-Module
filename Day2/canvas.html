@@ -1,0 +1,22 @@
+<h2>HTML Canvas - Circle</h2>
+
+<canvas id="myCanvas" width="300" height="200" style="border: 1px solid black">
+</canvas>
+
+<script>
+  const canvas = document.getElementById("myCanvas");
+  const ctx = canvas.getContext("2d");
+
+  // Draw a circle
+  ctx.beginPath();
+  ctx.arc(150, 100, 50, 0, 2 * Math.PI);
+
+  // Fill the circle with color
+  ctx.fillStyle = "blue";
+  ctx.fill();
+
+  // Draw the circle border
+  ctx.strokeStyle = "black";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+</script>
