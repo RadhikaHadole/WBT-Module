@@ -1,0 +1,52 @@
+<div class="outer">
+    <div class="box">
+        1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloremque non consequuntur, expedita soluta impedit nobis temporibus vel cupiditate, officiis distinctio quisquam corporis. Repellendus est explicabo excepturi, earum corporis reprehenderit!
+    </div>
+
+    <div class="box">
+        2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloremque non consequuntur, expedita soluta impedit nobis temporibus vel cupiditate, officiis distinctio quisquam corporis. Repellendus est explicabo excepturi, earum corporis reprehenderit!
+    </div>
+
+    <div class="box">
+        3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloremque non consequuntur, expedita soluta impedit nobis temporibus vel cupiditate, officiis distinctio quisquam corporis. Repellendus est explicabo excepturi, earum corporis reprehenderit!
+    </div>
+    <div class="box">
+        4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloremque non consequuntur, expedita soluta impedit nobis temporibus vel cupiditate, officiis distinctio quisquam corporis. Repellendus est explicabo excepturi, earum corporis reprehenderit!
+    </div>
+</div>
+<style>
+    .outer{
+        border: solid;
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: center;
+        justify-content: flex-start;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
+
+    }
+    .box{
+        border: solid;
+        width: 20%;
+    }
+    .box:nth-child(1){
+        order: 3;
+    }
+    .box:nth-child(2){
+        order: 4;
+    }
+    .box:nth-child(3){
+        order: 1;
+    }
+    .box:nth-child(4){
+        order: 2;
+    }
+</style>
