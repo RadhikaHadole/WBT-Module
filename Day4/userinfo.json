@@ -1,0 +1,90 @@
+{
+  "?xml": {
+    "@_version": "1.0",
+    "@_encoding": "UTF-8"
+  },
+  "users": {
+    "user": [
+      {
+        "userId": 101,
+        "name": "Rahul Sharma",
+        "age": 22,
+        "email": "rahul@example.com",
+        "phone": 9876500001,
+        "city": "Mumbai"
+      },
+      {
+        "userId": 102,
+        "name": "Priya Patel",
+        "age": 21,
+        "email": "priya@example.com",
+        "phone": 9876500002,
+        "city": "Pune"
+      },
+      {
+        "userId": 103,
+        "name": "Amit Verma",
+        "age": 25,
+        "email": "amit@example.com",
+        "phone": 9876500003,
+        "city": "Delhi"
+      },
+      {
+        "userId": 104,
+        "name": "Neha Singh",
+        "age": 23,
+        "email": "neha@example.com",
+        "phone": 9876500004,
+        "city": "Bengaluru"
+      },
+      {
+        "userId": 105,
+        "name": "Arjun Mehta",
+        "age": 24,
+        "email": "arjun@example.com",
+        "phone": 9876500005,
+        "city": "Ahmedabad"
+      },
+      {
+        "userId": 106,
+        "name": "Kavya Rao",
+        "age": 20,
+        "email": "kavya@example.com",
+        "phone": 9876500006,
+        "city": "Hyderabad"
+      },
+      {
+        "userId": 107,
+        "name": "Rohan Gupta",
+        "age": 26,
+        "email": "rohan@example.com",
+        "phone": 9876500007,
+        "city": "Jaipur"
+      },
+      {
+        "userId": 108,
+        "name": "Ananya Das",
+        "age": 22,
+        "email": "ananya@example.com",
+        "phone": 9876500008,
+        "city": "Kolkata"
+      },
+      {
+        "userId": 109,
+        "name": "Vikram Joshi",
+        "age": 27,
+        "email": "vikram@example.com",
+        "phone": 9876500009,
+        "city": "Chennai"
+      },
+      {
+        "userId": 110,
+        "name": "Meera Nair",
+        "age": 21,
+        "email": "meera@example.com",
+        "phone": 9876500010,
+        "city": "Kochi"
+      }
+    ]
+  }
+}

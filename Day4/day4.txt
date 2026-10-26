@@ -1,0 +1,112 @@
+JSON :  Javascript Object Notation (Technique) string 
+XML : Extensible Markup Language 
+
+{} = use for creating object
+[] = use for creating Array
+
+In JSON All keys must written in  ""
+
+if you are creating api undefined as string is not allowed -->{"name":"Radhika","age":22,"Hobbies":["Reading","Travelling"],"status":true,"place":undefined} 
+
+{"name":"Radhika","age":22,"Hobbies":["Reading","Travelling"],"status":true,"place":null,"address":function(){}} Functions are also not allowed 
+
+{"name":"Radhika","age":22,"Hobbies":["Reading","Travelling"],"status":true,"place":null,"address":math}  not allowed
+
+In JSON avoid using ready made object as well as function , built-in Object 
+
+let info='{"name":"Radhika","age":22,"Hobbies":["Reading","Travelling"],"status":true,"place":null}'; null is allowed for unknown value
+
+postman 
+
+400 status code for bad json string 
+
+get ,200 = retrieve data            
+post 201 =creation of data
+delete
+put(entire record)
+patch
+
+https://fakestoreapi.com/products
+domain/route/subroute/qury parameters
+
+1 question from JSON pasrse(string->object), json stringify(object->string) and which type of data is allowed in JSON or not allowed  
+
+
+JSON vs XML
+XML is large in size as compare to JSON
+JSON comment not allowed
+
+
+API KEY : ee8257d85b3e3066cfc2320092473f4e
+
+DOM Event Listners
+
+
+AJAX =Asyncronous javascript & XML (1 question ccee from AJAX)
+It works on client side
+Its a technique , uses existing technology
+(Javascript-for data transfer,HTML-CSS for markup, Presentation)
+without reloading an entire web page (data can be transferred )
+"XMLHttpRequest" Object is used to perform AJAX
+trab=nsfer data-->JSON
+
+XMLHttpRequest Object has following methods and properties
+
+open("get",apiurl)---> to connect apis or server side web page
+send() Method ---> send a request to the api or server
+
+readystate Property---> it generates cycles from 0 to 4 (1qu from cycle)
+0->not inititalized
+1->connect to api
+2->request is send to server
+3->
+** 4->request cycle is completed 
+
+Status Code 200 : OK
+Status Code 404 : Page not found
+201: Creation Process
+500: Internal Server Error 
+301: For http page redirect (Moved Permenanently)
+403 : for Auth Process
+400 :Malfunction with bad values status
+
+
+    "onreadystatechange " it is an event for state change 
+
+
+const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKEY}&units=metric`;
+
+**Important
+1 quest from AJAX
+1 quest from json
+1 quest from Promises and Promise All
+1 quest from async and await
+
+
+new function
+arrow function /lambda function/oneline function
+let record1 = a =>console.log(Math.sqrt(a)) if we have one parameter then () not required and have one statement then {} not required
+
+f1(100)(200)(300)(400)  //JS Currying
+
+TDZ = Temporal dead zone
+
+Promises (1 Que)
+It is an special object
+use to handle Asyncronous operations
+Ex. API calls
+
+3 states of Promises:
+1.Default state(pending /unsettled state)
+2.Fulfilled state (Settled State) ex. If your API is perfect i.e 200 state 
+3.Rejected State (Settled State)  ex. If your API is Failed 
+
+If promise is fullfilled then data can handle by "then()"
+If promise is Rejected then data can handle by "catch()"
+"finally()" is always called 
+
+
+
+
+
+

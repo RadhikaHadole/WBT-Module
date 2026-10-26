@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+    <user>
+        <userId>101</userId>
+        <name>Rahul Sharma</name>
+        <age>22</age>
+        <email>rahul@example.com</email>
+        <phone>9876500001</phone>
+        <city>Mumbai</city>
+    </user>
+
+    <user>
+        <userId>102</userId>
+        <name>Priya Patel</name>
+        <age>21</age>
+        <email>priya@example.com</email>
+        <phone>9876500002</phone>
+        <city>Pune</city>
+    </user>
+
+    <user>
+        <userId>103</userId>
+        <name>Amit Verma</name>
+        <age>25</age>
+        <email>amit@example.com</email>
+        <phone>9876500003</phone>
+        <city>Delhi</city>
+    </user>
+
+    <user>
+        <userId>104</userId>
+        <name>Neha Singh</name>
+        <age>23</age>
+        <email>neha@example.com</email>
+        <phone>9876500004</phone>
+        <city>Bengaluru</city>
+    </user>
+
+    <user>
+        <userId>105</userId>
+        <name>Arjun Mehta</name>
+        <age>24</age>
+        <email>arjun@example.com</email>
+        <phone>9876500005</phone>
+        <city>Ahmedabad</city>
+    </user>
+
+    <user>
+        <userId>106</userId>
+        <name>Kavya Rao</name>
+        <age>20</age>
+        <email>kavya@example.com</email>
+        <phone>9876500006</phone>
+        <city>Hyderabad</city>
+    </user>
+
+    <user>
+        <userId>107</userId>
+        <name>Rohan Gupta</name>
+        <age>26</age>
+        <email>rohan@example.com</email>
+        <phone>9876500007</phone>
+        <city>Jaipur</city>
+    </user>
+
+    <user>
+        <userId>108</userId>
+        <name>Ananya Das</name>
+        <age>22</age>
+        <email>ananya@example.com</email>
+        <phone>9876500008</phone>
+        <city>Kolkata</city>
+    </user>
+
+    <user>
+        <userId>109</userId>
+        <name>Vikram Joshi</name>
+        <age>27</age>
+        <email>vikram@example.com</email>
+        <phone>9876500009</phone>
+        <city>Chennai</city>
+    </user>
+
+    <user>
+        <userId>110</userId>
+        <name>Meera Nair</name>
+        <age>21</age>
+        <email>meera@example.com</email>
+        <phone>9876500010</phone>
+        <city>Kochi</city>
+    </user>
+</users>
