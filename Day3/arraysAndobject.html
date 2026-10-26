@@ -1,0 +1,44 @@
+<script>
+  let product = [
+    { name: "Sugar",
+    price: 50 ,
+    
+      path: "https://images.pexels.com/photos/38733974/pexels-photo-38733974.jpeg",
+    },
+
+    { name: "Biscuit",
+    price: 100 ,
+    
+      path: "https://images.pexels.com/photos/3133200/pexels-photo-3133200.jpeg",
+    },
+
+    { name: "Cake",
+    price: 200 ,
+    
+      path: "https://images.pexels.com/photos/8480687/pexels-photo-8480687.jpeg",
+    },
+
+  ];
+
+  for(let value of product)
+  {
+    console.log(value)
+    document.write(`
+    <div><img src="${value.path}" />
+    <h2>${value.price}</h2> 
+    <p>${value.name}</p></div>`)
+  }
+
+</script>
+
+<style>
+    div{
+        border: solid;
+        width: 300px;
+        text-align: center;
+        float: left;
+    }
+    div img{
+        width: 100%;
+    }
+</style>

@@ -1,0 +1,13 @@
+<script>
+    let product ={
+        name:'Sugar',price: 50,path:'https://images.pexels.com/photos/38733974/pexels-photo-38733974.jpeg',
+        size:["xl","l","m","s"]
+    }
+    console.log(product.name)
+    console.log(product["name"])
+    document.write(`
+    <div><img src="${product.path}" />
+    <h2>${product.price}</h2> 
+    <p>${product.name}</p>
+    <p>${product.size.join(",")}</p></div>`)
+</script>
